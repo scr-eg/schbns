@@ -1,0 +1,24 @@
+name = "schbns-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "school_platform_db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# الأسرار التالية تُضاف عبر: wrangler secret put <NAME>
+# JWT_SECRET          -> سر توقيع JWT
+# GAS_WEBAPP_URL      -> رابط نشر Google Apps Script Web App
+# GAS_API_SECRET      -> السر المشترك بين الـ Worker و GAS
+
+[vars]
+ENVIRONMENT = "production"
+# غيّر هذا لرابط موقعك الفعلي بعد ربط Cloudflare Pages باسم المشروع "schbns"
+# (سيكون الرابط الافتراضي: https://schbns.pages.dev، أو دومينك المخصص لاحقًا)
+FRONTEND_ORIGIN = "https://schbns.pages.dev"
+
+[observability]
+enabled = true

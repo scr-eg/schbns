@@ -18,7 +18,7 @@ migrations_dir = "migrations"
 ENVIRONMENT = "production"
 # غيّر هذا لرابط موقعك الفعلي بعد ربط Cloudflare Pages باسم المشروع "schbns"
 # (سيكون الرابط الافتراضي: https://schbns.pages.dev، أو دومينك المخصص لاحقًا)
-FRONTEND_ORIGIN = "https://sch.m-egy.workers.dev/"
+FRONTEND_ORIGIN = "https://schbns.pages.dev"
 
 [observability]
 enabled = true

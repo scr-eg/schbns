@@ -115,7 +115,8 @@ async function handleLogin(request, env) {
     } catch (e) { /* role table may differ */ }
 
     const token = await signToken({ sub: user.id, username: user.username, role: roleCode }, env.JWT_SECRET);
-    await env.DB.prepare('UPDATE users SET last_login_at = datetime('now'), failed_login_attempts = 0 WHERE id = ?').bind(user.id).run();
+       await env.DB.prepare('UPDATE users SET last_login_at = datetime(\'now\'), failed_login_attempts = 0 WHERE id = ?').bind(user.id).run();
+
 
     return json({
       token,

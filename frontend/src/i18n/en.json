@@ -1,0 +1,29 @@
+{
+  "app_name": "School Platform",
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "remember_me": "Remember me",
+    "forgot_password": "Forgot password?",
+    "submit": "Sign in",
+    "error_invalid": "Invalid username or password"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "stages": "Education Stages",
+    "students": "Students",
+    "teachers": "Teachers",
+    "news": "News",
+    "results": "Results",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "dashboard": {
+    "students_total": "Total Students",
+    "teachers_total": "Total Teachers",
+    "attendance_today": "Today's Attendance",
+    "absence_today": "Today's Absence"
+  }
+}

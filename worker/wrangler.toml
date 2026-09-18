@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "school_platform_db"
-database_id = "e896cc30-ff54-4cb9-a053-8dcd666dc54f"
+database_id = "66fbf19e-0ba5-47cc-92d4-7dae2b118fcd"
 migrations_dir = "migrations"
 
 # الأسرار التالية تُضاف عبر: wrangler secret put <NAME>

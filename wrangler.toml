@@ -7,5 +7,5 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "school_platform_db"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "66fbf19e-0ba5-47cc-92d4-7dae2b118fcd"
 migrations_dir = "migrations"
